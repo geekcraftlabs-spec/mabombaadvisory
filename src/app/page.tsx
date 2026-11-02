@@ -5,6 +5,7 @@ import { Approach } from "@/components/Approach";
 import { About } from "@/components/About";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
+import { ScrollMenu } from "@/components/ScrollMenu";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       <Contact />
       <Footer />
+      <ScrollMenu />
     </main>
   );
 }
